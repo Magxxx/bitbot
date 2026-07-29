@@ -1,0 +1,16 @@
+{
+  "name": "arc-gateway-bridge-public",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "bridge": "node bridge.mjs",
+    "check": "node --check bridge.mjs"
+  },
+  "dependencies": {
+    "viem": "^2.55.4"
+  }
+}
